@@ -1,0 +1,46 @@
+# Crear una Acción
+POST http://localhost:8080/acciones
+Content-Type: application/json
+
+{
+  "simbolo": "AAPL",
+  "precio_inicial": 150.00
+}
+
+###
+
+# Crear una Orden de Compra
+POST http://localhost:8080/ordenes
+Content-Type: application/json
+
+{
+  "usuario_id": 1,
+  "tipo": "compra",
+  "simbolo": "AAPL",
+  "cantidad": 5,
+  "precio_limite": 152.00
+}
+
+###
+
+# Crear una Orden de Venta
+POST http://localhost:8080/ordenes
+Content-Type: application/json
+
+{
+  "usuario_id": 2,
+  "tipo": "venta",
+  "simbolo": "AAPL",
+  "cantidad": 5,
+  "precio_limite": 150.00
+}
+
+###
+
+# Obtener el Libro de Órdenes
+GET http://localhost:8080/ordenes?simbolo=AAPL
+
+###
+
+# Obtener el Precio de una Acción
+GET http://localhost:8080/acciones/AAPL
