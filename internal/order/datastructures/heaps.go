@@ -1,7 +1,7 @@
 package datastructures
 
 import (
-	"market/internal/order/model"
+	"mi_proyecto/internal/order/model"
 )
 
 type BuyHeap []*model.Order
