@@ -166,6 +166,17 @@ GET localhost:3000/ordenes?simbolo=AAPL
 GET localhost:3000/acciones/AAPL
 ```
 
+## 🔮 Futuras Mejoras
+
+### Integración con SQL
+Implementar una base de datos SQL (como PostgreSQL o MySQL) para almacenar de manera persistente las acciones y órdenes. Esto permitirá una mayor escalabilidad y durabilidad de los datos, así como la capacidad de realizar consultas complejas y análisis históricos.
+
+### Uso de Redis
+Integrar Redis para el almacenamiento en caché de datos frecuentemente accedidos, como los precios de las acciones y el libro de órdenes. Esto mejorará significativamente el rendimiento de la API al reducir la latencia de las consultas repetitivas.
+
+### Implementación de RabbitMQ
+Utilizar RabbitMQ para la gestión de colas de mensajes y la comunicación entre servicios. Esto permitirá una arquitectura más robusta y escalable, facilitando la implementación de microservicios y el procesamiento asíncrono de órdenes y transacciones.
+
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
