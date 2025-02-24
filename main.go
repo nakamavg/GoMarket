@@ -1,11 +1,11 @@
 package main
 
 import (
-    "market/internal/api"
-    "market/internal/order/repository"
-    "market/internal/order/engine"
-    "market/internal/order/service"
-    "market/internal/stock"
+    "github.com/nakama/Market/internal/api"
+    "github.com/nakama/Market/internal/order/repository"
+    "github.com/nakama/Market/internal/order/engine"
+    "github.com/nakama/Market/internal/order/service"
+    "github.com/nakama/Market/internal/stock"
     "github.com/gin-gonic/gin"
 )
 

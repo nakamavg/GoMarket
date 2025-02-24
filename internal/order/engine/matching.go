@@ -2,8 +2,8 @@ package engine
 
 import (
     "math"
-    "market/internal/order/model"
-    "market/internal/stock"
+    "github.com/nakama/Market/internal/order/model"
+    "github.com/nakama/Market/internal/stock"
 )
 
 type MatchingEngine struct {

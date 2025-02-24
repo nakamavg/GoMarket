@@ -3,9 +3,9 @@ package api
 import (
     "net/http"
     "time"
-    "market/internal/order/model"
-    "market/internal/order/service"
-    "market/internal/stock"
+    "github.com/nakama/Market/internal/order/model"
+    "github.com/nakama/Market/internal/order/service"
+    "github.com/nakama/Market/internal/stock"
     "github.com/gin-gonic/gin"
 )
 

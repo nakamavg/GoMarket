@@ -3,7 +3,7 @@ package repository
 import (
     "sync"
     "errors"
-    "market/internal/order/model"
+    "github.com/nakama/Market/internal/order/model"
 )
 
 type OrderRepository interface {

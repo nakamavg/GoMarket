@@ -1,9 +1,9 @@
 package service
 
 import (
-    "market/internal/order/model"
-    "market/internal/order/repository"
-    "market/internal/order/engine"
+	"github.com/nakama/Market/internal/order/engine"
+	"github.com/nakama/Market/internal/order/model"
+	"github.com/nakama/Market/internal/order/repository"
 )
 
 type OrderService struct {
